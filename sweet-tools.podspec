@@ -10,6 +10,6 @@ Sweet swift library
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'GILNAM PARK' => 'knzzang89@naver.com' }
   s.source           = { :git => 'https://github.com/swieeft/sweet-tools.git', :tag => s.version.to_s }
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
   s.source_files = 'sweet-tools/*.swift'
 end

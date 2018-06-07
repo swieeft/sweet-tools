@@ -11,6 +11,16 @@
 		24CDCB5E20C8E42E00E9C936 /* sweet_toolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDCB5D20C8E42E00E9C936 /* sweet_toolsTests.swift */; };
 		24CDCB6020C8E42E00E9C936 /* sweet_tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 24CDCB5220C8E42E00E9C936 /* sweet_tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24CDCB6B20C8E75E00E9C936 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDCB6A20C8E75E00E9C936 /* String.swift */; };
+		24CDCB6D20C8F26700E9C936 /* BadgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDCB6C20C8F26700E9C936 /* BadgeButton.swift */; };
+		24CDCB6F20C8F38800E9C936 /* RightToLeftSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDCB6E20C8F38800E9C936 /* RightToLeftSegue.swift */; };
+		24CDCB7120C8F4A200E9C936 /* CGFloat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDCB7020C8F4A200E9C936 /* CGFloat.swift */; };
+		24CDCB7320C8F63000E9C936 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDCB7220C8F63000E9C936 /* UIView.swift */; };
+		24CDCB7520C8F7DA00E9C936 /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDCB7420C8F7DA00E9C936 /* UIScrollView.swift */; };
+		24CDCB7720C8F90D00E9C936 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDCB7620C8F90D00E9C936 /* UIButton.swift */; };
+		24CDCB7920C8F9A000E9C936 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDCB7820C8F9A000E9C936 /* UIImageView.swift */; };
+		24CDCB7B20C8FA7200E9C936 /* UITabelViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDCB7A20C8FA7200E9C936 /* UITabelViewCell.swift */; };
+		24CDCB7D20C8FAB200E9C936 /* WKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDCB7C20C8FAB200E9C936 /* WKWebView.swift */; };
+		24CDCB7F20C8FD7D00E9C936 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDCB7E20C8FD7D00E9C936 /* Date.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +41,16 @@
 		24CDCB5D20C8E42E00E9C936 /* sweet_toolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sweet_toolsTests.swift; sourceTree = "<group>"; };
 		24CDCB5F20C8E42E00E9C936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		24CDCB6A20C8E75E00E9C936 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		24CDCB6C20C8F26700E9C936 /* BadgeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeButton.swift; sourceTree = "<group>"; };
+		24CDCB6E20C8F38800E9C936 /* RightToLeftSegue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightToLeftSegue.swift; sourceTree = "<group>"; };
+		24CDCB7020C8F4A200E9C936 /* CGFloat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGFloat.swift; sourceTree = "<group>"; };
+		24CDCB7220C8F63000E9C936 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		24CDCB7420C8F7DA00E9C936 /* UIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollView.swift; sourceTree = "<group>"; };
+		24CDCB7620C8F90D00E9C936 /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
+		24CDCB7820C8F9A000E9C936 /* UIImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		24CDCB7A20C8FA7200E9C936 /* UITabelViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabelViewCell.swift; sourceTree = "<group>"; };
+		24CDCB7C20C8FAB200E9C936 /* WKWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebView.swift; sourceTree = "<group>"; };
+		24CDCB7E20C8FD7D00E9C936 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +96,16 @@
 				24CDCB5220C8E42E00E9C936 /* sweet_tools.h */,
 				24CDCB5320C8E42E00E9C936 /* Info.plist */,
 				24CDCB6A20C8E75E00E9C936 /* String.swift */,
+				24CDCB6C20C8F26700E9C936 /* BadgeButton.swift */,
+				24CDCB6E20C8F38800E9C936 /* RightToLeftSegue.swift */,
+				24CDCB7020C8F4A200E9C936 /* CGFloat.swift */,
+				24CDCB7220C8F63000E9C936 /* UIView.swift */,
+				24CDCB7420C8F7DA00E9C936 /* UIScrollView.swift */,
+				24CDCB7620C8F90D00E9C936 /* UIButton.swift */,
+				24CDCB7820C8F9A000E9C936 /* UIImageView.swift */,
+				24CDCB7A20C8FA7200E9C936 /* UITabelViewCell.swift */,
+				24CDCB7C20C8FAB200E9C936 /* WKWebView.swift */,
+				24CDCB7E20C8FD7D00E9C936 /* Date.swift */,
 			);
 			path = "sweet-tools";
 			sourceTree = "<group>";
@@ -198,7 +228,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24CDCB7920C8F9A000E9C936 /* UIImageView.swift in Sources */,
+				24CDCB7320C8F63000E9C936 /* UIView.swift in Sources */,
+				24CDCB7120C8F4A200E9C936 /* CGFloat.swift in Sources */,
+				24CDCB6F20C8F38800E9C936 /* RightToLeftSegue.swift in Sources */,
+				24CDCB7520C8F7DA00E9C936 /* UIScrollView.swift in Sources */,
+				24CDCB7D20C8FAB200E9C936 /* WKWebView.swift in Sources */,
+				24CDCB7720C8F90D00E9C936 /* UIButton.swift in Sources */,
 				24CDCB6B20C8E75E00E9C936 /* String.swift in Sources */,
+				24CDCB7F20C8FD7D00E9C936 /* Date.swift in Sources */,
+				24CDCB7B20C8FA7200E9C936 /* UITabelViewCell.swift in Sources */,
+				24CDCB6D20C8F26700E9C936 /* BadgeButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

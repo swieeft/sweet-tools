@@ -10,6 +10,7 @@
 		24CDCB5920C8E42E00E9C936 /* sweet_tools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CDCB4F20C8E42E00E9C936 /* sweet_tools.framework */; };
 		24CDCB5E20C8E42E00E9C936 /* sweet_toolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDCB5D20C8E42E00E9C936 /* sweet_toolsTests.swift */; };
 		24CDCB6020C8E42E00E9C936 /* sweet_tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 24CDCB5220C8E42E00E9C936 /* sweet_tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		24CDCB6B20C8E75E00E9C936 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDCB6A20C8E75E00E9C936 /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		24CDCB5820C8E42E00E9C936 /* sweet-toolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sweet-toolsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CDCB5D20C8E42E00E9C936 /* sweet_toolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sweet_toolsTests.swift; sourceTree = "<group>"; };
 		24CDCB5F20C8E42E00E9C936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24CDCB6A20C8E75E00E9C936 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				24CDCB5220C8E42E00E9C936 /* sweet_tools.h */,
 				24CDCB5320C8E42E00E9C936 /* Info.plist */,
+				24CDCB6A20C8E75E00E9C936 /* String.swift */,
 			);
 			path = "sweet-tools";
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					24CDCB4E20C8E42E00E9C936 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 					24CDCB5720C8E42E00E9C936 = {
 						CreatedOnToolsVersion = 9.3;
@@ -194,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24CDCB6B20C8E75E00E9C936 /* String.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +344,7 @@
 		24CDCB6420C8E42E00E9C936 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -355,6 +361,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "swieeft.sweet-tools";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -363,6 +370,7 @@
 		24CDCB6520C8E42E00E9C936 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -387,6 +395,7 @@
 		24CDCB6720C8E42E00E9C936 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "sweet-toolsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -404,6 +413,7 @@
 		24CDCB6820C8E42E00E9C936 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "sweet-toolsTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (

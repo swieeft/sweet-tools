@@ -21,6 +21,7 @@
 		24CDCB7B20C8FA7200E9C936 /* UITabelViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDCB7A20C8FA7200E9C936 /* UITabelViewCell.swift */; };
 		24CDCB7D20C8FAB200E9C936 /* WKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDCB7C20C8FAB200E9C936 /* WKWebView.swift */; };
 		24CDCB7F20C8FD7D00E9C936 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDCB7E20C8FD7D00E9C936 /* Date.swift */; };
+		24CDCBB020CF9FFB00E9C936 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDCBAF20CF9FFB00E9C936 /* Logger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		24CDCB7A20C8FA7200E9C936 /* UITabelViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITabelViewCell.swift; sourceTree = "<group>"; };
 		24CDCB7C20C8FAB200E9C936 /* WKWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebView.swift; sourceTree = "<group>"; };
 		24CDCB7E20C8FD7D00E9C936 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		24CDCBAF20CF9FFB00E9C936 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				24CDCB7A20C8FA7200E9C936 /* UITabelViewCell.swift */,
 				24CDCB7C20C8FAB200E9C936 /* WKWebView.swift */,
 				24CDCB7E20C8FD7D00E9C936 /* Date.swift */,
+				24CDCBAF20CF9FFB00E9C936 /* Logger.swift */,
 			);
 			path = "sweet-tools";
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				24CDCB7520C8F7DA00E9C936 /* UIScrollView.swift in Sources */,
 				24CDCB7D20C8FAB200E9C936 /* WKWebView.swift in Sources */,
 				24CDCB7720C8F90D00E9C936 /* UIButton.swift in Sources */,
+				24CDCBB020CF9FFB00E9C936 /* Logger.swift in Sources */,
 				24CDCB6B20C8E75E00E9C936 /* String.swift in Sources */,
 				24CDCB7F20C8FD7D00E9C936 /* Date.swift in Sources */,
 				24CDCB7B20C8FA7200E9C936 /* UITabelViewCell.swift in Sources */,

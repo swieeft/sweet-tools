@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2472AB1E20DCF056002BFD58 /* YoutubeThumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2472AB1D20DCF056002BFD58 /* YoutubeThumbnail.swift */; };
 		24CDCB5920C8E42E00E9C936 /* sweet_tools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24CDCB4F20C8E42E00E9C936 /* sweet_tools.framework */; };
 		24CDCB5E20C8E42E00E9C936 /* sweet_toolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDCB5D20C8E42E00E9C936 /* sweet_toolsTests.swift */; };
 		24CDCB6020C8E42E00E9C936 /* sweet_tools.h in Headers */ = {isa = PBXBuildFile; fileRef = 24CDCB5220C8E42E00E9C936 /* sweet_tools.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2472AB1D20DCF056002BFD58 /* YoutubeThumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeThumbnail.swift; sourceTree = "<group>"; };
 		24CDCB4F20C8E42E00E9C936 /* sweet_tools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = sweet_tools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		24CDCB5220C8E42E00E9C936 /* sweet_tools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sweet_tools.h; sourceTree = "<group>"; };
 		24CDCB5320C8E42E00E9C936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -74,6 +76,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2472AB1F20DCF748002BFD58 /* Thumbnail */ = {
+			isa = PBXGroup;
+			children = (
+				2472AB1D20DCF056002BFD58 /* YoutubeThumbnail.swift */,
+			);
+			path = Thumbnail;
+			sourceTree = "<group>";
+		};
 		24CDCB4520C8E42E00E9C936 = {
 			isa = PBXGroup;
 			children = (
@@ -97,18 +107,11 @@
 			children = (
 				24CDCB5220C8E42E00E9C936 /* sweet_tools.h */,
 				24CDCB5320C8E42E00E9C936 /* Info.plist */,
-				24CDCB6A20C8E75E00E9C936 /* String.swift */,
-				24CDCB6C20C8F26700E9C936 /* BadgeButton.swift */,
-				24CDCB6E20C8F38800E9C936 /* RightToLeftSegue.swift */,
-				24CDCB7020C8F4A200E9C936 /* CGFloat.swift */,
-				24CDCB7220C8F63000E9C936 /* UIView.swift */,
-				24CDCB7420C8F7DA00E9C936 /* UIScrollView.swift */,
-				24CDCB7620C8F90D00E9C936 /* UIButton.swift */,
-				24CDCB7820C8F9A000E9C936 /* UIImageView.swift */,
-				24CDCB7A20C8FA7200E9C936 /* UITabelViewCell.swift */,
-				24CDCB7C20C8FAB200E9C936 /* WKWebView.swift */,
-				24CDCB7E20C8FD7D00E9C936 /* Date.swift */,
-				24CDCBAF20CF9FFB00E9C936 /* Logger.swift */,
+				24CDCBB220CFA1A300E9C936 /* CustomControl */,
+				24CDCBB120CFA16800E9C936 /* UIExtension */,
+				24CDCBB320CFA1E800E9C936 /* ClassExtension */,
+				24CDCBB420CFA1FE00E9C936 /* Log */,
+				2472AB1F20DCF748002BFD58 /* Thumbnail */,
 			);
 			path = "sweet-tools";
 			sourceTree = "<group>";
@@ -120,6 +123,46 @@
 				24CDCB5F20C8E42E00E9C936 /* Info.plist */,
 			);
 			path = "sweet-toolsTests";
+			sourceTree = "<group>";
+		};
+		24CDCBB120CFA16800E9C936 /* UIExtension */ = {
+			isa = PBXGroup;
+			children = (
+				24CDCB7420C8F7DA00E9C936 /* UIScrollView.swift */,
+				24CDCB7620C8F90D00E9C936 /* UIButton.swift */,
+				24CDCB7820C8F9A000E9C936 /* UIImageView.swift */,
+				24CDCB7A20C8FA7200E9C936 /* UITabelViewCell.swift */,
+				24CDCB7220C8F63000E9C936 /* UIView.swift */,
+				24CDCB7C20C8FAB200E9C936 /* WKWebView.swift */,
+				24CDCB6E20C8F38800E9C936 /* RightToLeftSegue.swift */,
+			);
+			path = UIExtension;
+			sourceTree = "<group>";
+		};
+		24CDCBB220CFA1A300E9C936 /* CustomControl */ = {
+			isa = PBXGroup;
+			children = (
+				24CDCB6C20C8F26700E9C936 /* BadgeButton.swift */,
+			);
+			path = CustomControl;
+			sourceTree = "<group>";
+		};
+		24CDCBB320CFA1E800E9C936 /* ClassExtension */ = {
+			isa = PBXGroup;
+			children = (
+				24CDCB6A20C8E75E00E9C936 /* String.swift */,
+				24CDCB7020C8F4A200E9C936 /* CGFloat.swift */,
+				24CDCB7E20C8FD7D00E9C936 /* Date.swift */,
+			);
+			path = ClassExtension;
+			sourceTree = "<group>";
+		};
+		24CDCBB420CFA1FE00E9C936 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				24CDCBAF20CF9FFB00E9C936 /* Logger.swift */,
+			);
+			path = Log;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2472AB1E20DCF056002BFD58 /* YoutubeThumbnail.swift in Sources */,
 				24CDCB7920C8F9A000E9C936 /* UIImageView.swift in Sources */,
 				24CDCB7320C8F63000E9C936 /* UIView.swift in Sources */,
 				24CDCB7120C8F4A200E9C936 /* CGFloat.swift in Sources */,

@@ -23,6 +23,7 @@
 		24CDCB7D20C8FAB200E9C936 /* WKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDCB7C20C8FAB200E9C936 /* WKWebView.swift */; };
 		24CDCB7F20C8FD7D00E9C936 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDCB7E20C8FD7D00E9C936 /* Date.swift */; };
 		24CDCBB020CF9FFB00E9C936 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDCBAF20CF9FFB00E9C936 /* Logger.swift */; };
+		24E2379720FD6B0F001ED140 /* KeychainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E2379620FD6B0F001ED140 /* KeychainController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		24CDCB7C20C8FAB200E9C936 /* WKWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebView.swift; sourceTree = "<group>"; };
 		24CDCB7E20C8FD7D00E9C936 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		24CDCBAF20CF9FFB00E9C936 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		24E2379620FD6B0F001ED140 /* KeychainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				24CDCBB320CFA1E800E9C936 /* ClassExtension */,
 				24CDCBB420CFA1FE00E9C936 /* Log */,
 				2472AB1F20DCF748002BFD58 /* Thumbnail */,
+				24E2379520FD6AF0001ED140 /* Keychain */,
 			);
 			path = "sweet-tools";
 			sourceTree = "<group>";
@@ -163,6 +166,14 @@
 				24CDCBAF20CF9FFB00E9C936 /* Logger.swift */,
 			);
 			path = Log;
+			sourceTree = "<group>";
+		};
+		24E2379520FD6AF0001ED140 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				24E2379620FD6B0F001ED140 /* KeychainController.swift */,
+			);
+			path = Keychain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +296,7 @@
 				24CDCBB020CF9FFB00E9C936 /* Logger.swift in Sources */,
 				24CDCB6B20C8E75E00E9C936 /* String.swift in Sources */,
 				24CDCB7F20C8FD7D00E9C936 /* Date.swift in Sources */,
+				24E2379720FD6B0F001ED140 /* KeychainController.swift in Sources */,
 				24CDCB7B20C8FA7200E9C936 /* UITabelViewCell.swift in Sources */,
 				24CDCB6D20C8F26700E9C936 /* BadgeButton.swift in Sources */,
 			);

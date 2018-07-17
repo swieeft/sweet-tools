@@ -10,7 +10,7 @@ import Foundation
 import UIKit
 
 extension UITableViewCell {
-    func initCardyView(selectionStyle style:UITableViewCellSelectionStyle = .none, backgroundColor color:UIColor = .clear, shadowOffset:CGSize = CGSize(width: 0, height: 0), shadowColor:UIColor = .black, shadowOpacity:Float = 0.3, shadowRadius:CGFloat = 3) {
+    public func initCardyView(selectionStyle style:UITableViewCellSelectionStyle = .none, backgroundColor color:UIColor = .clear, shadowOffset:CGSize = CGSize(width: 0, height: 0), shadowColor:UIColor = .black, shadowOpacity:Float = 0.3, shadowRadius:CGFloat = 3) {
         selectionStyle = style
         backgroundColor = color
         
@@ -32,13 +32,13 @@ extension UITableViewCell: NibLoadableView {
 
 
 extension ReusableView where Self: UIView {
-    static var reuserIdentifier: String {
+    internal static var reuserIdentifier: String {
         return String(describing: self)
     }
 }
 
 extension NibLoadableView where Self: UIView {
-    static var NibName: String {
+    internal static var NibName: String {
         return String(describing: self)
     }
 }

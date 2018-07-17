@@ -15,7 +15,7 @@ extension UIView {
         
         let path = UIBezierPath(roundedRect: superView.bounds,
                                 byRoundingCorners: corner,
-                                cornerRadii: CGSize(width: cornerWidth, height: cornerHeight))
+                                cornerRadii: CGSize(width: 15, height: 10))
         
         let maskLayer = CAShapeLayer()
         
@@ -23,7 +23,8 @@ extension UIView {
         layer.mask = maskLayer
     }
     
-    public func roundedAllCorners(superView:UIView, cornerWidth:CGFloat, cornerHeight:CGFloat) {
-        roundedSelectedCorners(superView: superView, corner: UIRectCorner.allCorners, cornerWidth: cornerWidth, cornerHeight: cornerHeight)
+    public func roundedAllCorners(cornerRadius:CGFloat) {
+        layer.cornerRadius = cornerRadius
+        layer.masksToBounds = true
     }
 }

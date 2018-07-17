@@ -24,6 +24,9 @@
 		24CDCB7F20C8FD7D00E9C936 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDCB7E20C8FD7D00E9C936 /* Date.swift */; };
 		24CDCBB020CF9FFB00E9C936 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24CDCBAF20CF9FFB00E9C936 /* Logger.swift */; };
 		24E2379720FD6B0F001ED140 /* KeychainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E2379620FD6B0F001ED140 /* KeychainController.swift */; };
+		24E2379B20FD6ED6001ED140 /* CardyViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E2379A20FD6ED6001ED140 /* CardyViewProtocol.swift */; };
+		24E2379E20FD6F45001ED140 /* CardyViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E2379D20FD6F45001ED140 /* CardyViewExtension.swift */; };
+		24E237A020FD7064001ED140 /* CardyViewCellExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E2379F20FD7064001ED140 /* CardyViewCellExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		24CDCB7E20C8FD7D00E9C936 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		24CDCBAF20CF9FFB00E9C936 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 		24E2379620FD6B0F001ED140 /* KeychainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainController.swift; sourceTree = "<group>"; };
+		24E2379A20FD6ED6001ED140 /* CardyViewProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardyViewProtocol.swift; sourceTree = "<group>"; };
+		24E2379D20FD6F45001ED140 /* CardyViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardyViewExtension.swift; sourceTree = "<group>"; };
+		24E2379F20FD7064001ED140 /* CardyViewCellExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardyViewCellExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,7 @@
 				24CDCBB420CFA1FE00E9C936 /* Log */,
 				2472AB1F20DCF748002BFD58 /* Thumbnail */,
 				24E2379520FD6AF0001ED140 /* Keychain */,
+				24E2379820FD6E64001ED140 /* CardyView */,
 			);
 			path = "sweet-tools";
 			sourceTree = "<group>";
@@ -174,6 +181,32 @@
 				24E2379620FD6B0F001ED140 /* KeychainController.swift */,
 			);
 			path = Keychain;
+			sourceTree = "<group>";
+		};
+		24E2379820FD6E64001ED140 /* CardyView */ = {
+			isa = PBXGroup;
+			children = (
+				24E2379C20FD6EFD001ED140 /* Extension */,
+				24E2379920FD6EB9001ED140 /* Protocol */,
+			);
+			path = CardyView;
+			sourceTree = "<group>";
+		};
+		24E2379920FD6EB9001ED140 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				24E2379A20FD6ED6001ED140 /* CardyViewProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		24E2379C20FD6EFD001ED140 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				24E2379D20FD6F45001ED140 /* CardyViewExtension.swift */,
+				24E2379F20FD7064001ED140 /* CardyViewCellExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,12 +325,15 @@
 				24CDCB6F20C8F38800E9C936 /* RightToLeftSegue.swift in Sources */,
 				24CDCB7520C8F7DA00E9C936 /* UIScrollView.swift in Sources */,
 				24CDCB7D20C8FAB200E9C936 /* WKWebView.swift in Sources */,
+				24E2379B20FD6ED6001ED140 /* CardyViewProtocol.swift in Sources */,
 				24CDCB7720C8F90D00E9C936 /* UIButton.swift in Sources */,
+				24E237A020FD7064001ED140 /* CardyViewCellExtension.swift in Sources */,
 				24CDCBB020CF9FFB00E9C936 /* Logger.swift in Sources */,
 				24CDCB6B20C8E75E00E9C936 /* String.swift in Sources */,
 				24CDCB7F20C8FD7D00E9C936 /* Date.swift in Sources */,
 				24E2379720FD6B0F001ED140 /* KeychainController.swift in Sources */,
 				24CDCB7B20C8FA7200E9C936 /* UITabelViewCell.swift in Sources */,
+				24E2379E20FD6F45001ED140 /* CardyViewExtension.swift in Sources */,
 				24CDCB6D20C8F26700E9C936 /* BadgeButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

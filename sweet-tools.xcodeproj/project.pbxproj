@@ -142,6 +142,7 @@
 				24CDCB7620C8F90D00E9C936 /* UIButton.swift */,
 				24CDCB7820C8F9A000E9C936 /* UIImageView.swift */,
 				24CDCB7A20C8FA7200E9C936 /* UITabelViewCell.swift */,
+				24E2379920FD6EB9001ED140 /* Protocol */,
 				24CDCB7220C8F63000E9C936 /* UIView.swift */,
 				24CDCB7C20C8FAB200E9C936 /* WKWebView.swift */,
 				24CDCB6E20C8F38800E9C936 /* RightToLeftSegue.swift */,
@@ -187,7 +188,6 @@
 			isa = PBXGroup;
 			children = (
 				24E2379C20FD6EFD001ED140 /* Extension */,
-				24E2379920FD6EB9001ED140 /* Protocol */,
 			);
 			path = CardyView;
 			sourceTree = "<group>";

@@ -40,6 +40,24 @@ class CardyViewCell: UITableViewCell {
         iconImageView.circleImage()
     }
 
+    static func isType() -> Bool {
+        return true
+    }
+    
+    func setData(data:cellData) {
+        if let icon = data.icon {
+            iconImageView.image = icon
+        }
+        
+        if let title = data.title {
+            titleLabel.text = title
+        }
+        
+        if let contents = data.contents {
+            contentsImageView.image = contents
+        }
+    }
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 

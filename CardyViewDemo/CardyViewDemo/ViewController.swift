@@ -15,6 +15,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     var cellDatas:[cellData] = []
     
+    let cellClassArr = [CardyViewCell.self, CardyViewCell.self, CardyViewCell.self, CardyViewCell.self, CardyViewCell.self]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -30,28 +32,22 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         cellDatas.append(cellData(icon: UIImage(named: "4icon"), title: "Rock", contents: UIImage(named: "4.jpg")))
         cellDatas.append(cellData(icon: UIImage(named: "5icon"), title: "Organized", contents: UIImage(named: "5.jpg")))
         
-        tableView.register(CardyViewCell.self)
+        CardyViewCell.register(tableView: tableView)
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return cellClassArr.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(forIndexPath: indexPath) as CardyViewCell
         
-        let data = cellDatas[indexPath.row]
+        var cell = CardyViewCell()
         
-        if let icon = data.icon {
-            cell.iconImageView.image = icon
-        }
-        
-        if let title = data.title {
-            cell.titleLabel.text = title
-        }
-        
-        if let contents = data.contents {
-            cell.contentsImageView.image = contents
+        for c in cellClassArr {
+            if c.isType() {
+                cell = c.dequeueReusableCell(tableView: tableView) as! CardyViewCell
+                cell.setData(data: cellDatas[indexPath.row])
+            }
         }
         
         return cell
